@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
 /*
- * main - Entry point
+ * main - Entry point of the program
  *
+ * This function writes a specific message to the standard error and returns 1.
  * Return: Always 1 (Success)
  */
 int main(void)
