@@ -7,6 +7,7 @@
 int main(void)
 {
 	int nu = 0;
+
 	while (nu <= 9)
 	{
 		putchar(nu + '0');
