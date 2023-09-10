@@ -1,4 +1,10 @@
+/*
+ * File: 9-print_comb.c
+ * Auth: Dagnachew Amare Menlargilih
+ */
+
 #include <stdio.h>
+
 /**
 * main - prints single digit numbers in order,comma and space gap
 *
@@ -8,13 +14,14 @@ int main(void)
 {
 	int i;
 
-	putchar('0');
-
-	for (i = 1; i < 10; i++)
+	for (i = 1; i <= 9; i++)
 	{
-	putchar(',');
-	putchar(' ');
-	putchar(i + '0');
+		putchar(i + '0');
+		if (i == 9)
+			continue:
+	
+		putchar(',');
+		putchar(' ');
 	}
 	putchar('\n');
 	return (0);
