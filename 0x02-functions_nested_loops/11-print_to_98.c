@@ -1,6 +1,7 @@
 /*
  * File Name: 11-print_to_98.c
- * Coder: Dagnachew Amare Menlargilih */
+ * Coder: Dagnachew Amare Menlargilih
+ */
 #include <stdio.h>
 /**
  * print_to_98 - Prints all natural numbers from input to 98,
