@@ -2,10 +2,12 @@
  * File Name: 5-sign.c
  * Coder: Dafgnachew Amare Menlargilih
  */
+
 #include "main.h"
+
 /**
- * The function Prints the sign of a number.
- * n: The number of which the sign will be printed.
+ * print_sign - Prints the sign of a number.
+ * @n: The number of which the sign will be printed.
  *
  * Return: 1 if the number is greater than zero,
  *         0 if the number is zero,
