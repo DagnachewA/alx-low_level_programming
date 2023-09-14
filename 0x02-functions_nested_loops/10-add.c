@@ -1,12 +1,10 @@
 /*
  * File Name: 10-add.c
- * Auth: Dagnachew Amare Menlargilih
+ * Coder: Dagnachew Amare Menlargilih
  */
 #include "main.h"
 /**
- * add - Adds two integers.
- * @n1: The first integer to be added.
- * @n2: The second integer to be added.
+ * The function Adds two integers, n1 and n2
  *
  * Return: The result of the addition.
  */

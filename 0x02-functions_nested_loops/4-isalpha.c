@@ -1,11 +1,11 @@
 /*
  * File Name: 4-isalpha.c
- * Auth: Dagnachew Amare Menlargilih
+ * Coder: Dagnachew Amare Menlargilih
  */
 #include "main.h"
 /**
- * _isalpha - Checks if a character is alphabetic.
- * @c: The character to be checked.
+ * The function Checks if a character is alphabetic.
+ * c: The character to be checked.
  *
  * Return: 1 if character is letter, lowercase or uppercase, 0 otherwise.
  */

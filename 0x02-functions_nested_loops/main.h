@@ -2,9 +2,9 @@
 #define MAIN_H
 /*
  * File Name: main.h
- * Auth: Dagnachew Amare
- * Desc: Header file containing declarations for all functions
- *       used in the 0x02-functions_nested_loops directory.
+ * COder: Dagnachew Amare Menlargilih
+ * A collection of declarations for all functions
+ *       used in the directory 0x02-functions_nested_loops
  */
 
 int _putchar(char c);

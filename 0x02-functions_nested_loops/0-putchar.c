@@ -1,6 +1,6 @@
 /*
  * File Name: 0-putchar.c
- * Auth: Dagnachew Amare Menlargilih
+ * Coder: Dagnachew Amare Menlargilih
  *
  */
 #include "main.h"

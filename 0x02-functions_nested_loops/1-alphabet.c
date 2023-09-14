@@ -1,17 +1,17 @@
 /*
- * File: 1-alphabet.c
- * Auth: Dagnachew Amare
+ * File Name: 1-alphabet.c
+ * Coder: Dagnachew Amare Menlarglih
  */
 #include "main.h"
 /**
- * print_alphabet - prints the alphabet in lowercase, followed by a new line.
+ * The function prints the alphabet in lowercase, followed by a new line.
  */
 void print_alphabet(void)
 {
-	char let;
+	char l;
 
-	for (let = 'a'; let <= 'z'; let++)
-		_putchar(let);
+	for (l = 'a'; l <= 'z'; l++)
+		_putchar(l);
 
 	_putchar('\n');
 }
