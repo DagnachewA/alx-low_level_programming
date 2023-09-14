@@ -2,7 +2,9 @@
  * File Name: 4-isalpha.c
  * Coder: Dagnachew Amare Menlargilih
  */
+
 #include "main.h"
+
 /**
  * The function Checks if a character is alphabetic.
  * c: The character to be checked.
