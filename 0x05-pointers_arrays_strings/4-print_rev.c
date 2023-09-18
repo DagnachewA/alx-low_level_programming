@@ -1,5 +1,5 @@
 /*
- * File: 4-print_rev.c
+ * File Name: 4-print_rev.c
  * Coder: Dagnachew A.
  */
 
@@ -13,11 +13,15 @@ void print_rev(char *s)
 {
 	if (s == NULL)
 		return;
-	int l = 0, in;
-
-	while (s[l] != '\0')
-		l++;
-
-	for (in = len - 1; in >= 0; in--)
-		_putchar(s[in]);
+	int length = 0;
+	while (s[length] != '\0')
+	{
+		length++;
+	}
+	int i;
+	for (i = length - 1; i >= 0; i--)
+	{
+		putchar(s[i]);
+	}
+	_putchar('\n');
 }
