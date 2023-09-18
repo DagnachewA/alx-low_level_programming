@@ -1,13 +1,13 @@
 /*
- * File Name: 3-puts.c
+ * File: 3-puts.c
  * Coder: Dagnachew A.
  */
 
 #include "main.h"
 
 /**
- * print_rev - Prints a string in reverse.
- * @s: The string to be printed.
+ * _puts - Prints a string to stdout.
+ * @str: The string to be printed.
  */
 void _puts(char *str)
 {
