@@ -1,6 +1,6 @@
 /*
- * File Name: 4-print_rev.c
- * Auth: Dagnachew A.
+ * File: 4-print_rev.c
+ * Coder: Dagnachew A.
  */
 
 #include "main.h"
