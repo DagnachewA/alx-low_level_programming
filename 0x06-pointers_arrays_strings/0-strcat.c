@@ -4,7 +4,7 @@
  */
 
 #include "main.h"
-
+#include <stddef.h>
 /**
  * strcat - Concatenates the string pointed to by @src, including the terminating
  *          null byte, to the end of the string pointed to by @dest.
@@ -16,26 +16,21 @@
 
 char *_strcat(char *dest, char *src)
 {
-    if (dest == NULL || src == NULL)
-        return NULL;
+	char *dest_ptr = dest;
+	
+	if (dest == NULL || src == NULL)
+	return NULL;
 
-    char *dest_ptr = dest;
-
-    // Find the end of the destination string
-    while (*dest != '\0')
-    {
-        dest++;
-    }
-
-    // Append the source string to the destination string
-    while (*src != '\0')
-    {
-        *dest = *src;
-        dest++;
-        src++;
-    }
-
-    *dest = '\0'; // Add a terminating null byte
-
-    return dest_ptr;
+	while (*dest != '\0')
+	{
+		dest++;
+	}
+	while (*src != '\0')
+	{
+		*dest = *src;
+		dest++;
+		src++;
+	}
+	*dest = '\0';
+	return dest_ptr;
 }
