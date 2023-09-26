@@ -1,7 +1,7 @@
 /*
  * File Name: 0-memset.c
- * Coder: Dagnachew Amare 
- *
+ * Coder: Dagnachew Amare
+ * Desc: Custom implementation of the memset function in C.
  */
 #include "main.h"
 
