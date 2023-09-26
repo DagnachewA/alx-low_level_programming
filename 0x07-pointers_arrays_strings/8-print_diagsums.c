@@ -1,6 +1,7 @@
 /*
  * File Name: 8-print_diagsums.c
- * Coder: Dagnachew Amare */
+ * Coder: Dagnachew Amare
+ */
 
 #include "main.h"
 #include <stdio.h>
