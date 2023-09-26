@@ -1,27 +1,39 @@
 /*
- * File Name: 2-strchr.c
- * COder: Dagnachew Amare
+ * File Name: 3-strspn.c
+ * Coder: Dagnachew Amare
  */
 
 #include "main.h"
 
 /**
- * _strchr - Locates a character in a string.
+ * _strspn - Gets the length of a prefix substring.
  * @s: The string to be searched.
- * @c: The character to be located.
+ * @pref: The prefix to be measured.
  *
- * Return: If c is found - a pointer to the first occurence.
- *         If c is not found - NULL.
+ * Return: The number of bytes in s which
+ *         consist only of bytes from pref.
  */
-char *_strchr(char *s, char c)
+unsigned int _strspn(char *s, char *pref)
 {
+	unsigned int bytes = 0;
 	int index;
 
-	for (index = 0; s[index] >= '\0'; index++)
+	while (*s)
 	{
-		if (s[index] == c)
-			return (s + index);
+		for (index = 0; pref[index]; index++)
+		{
+			if (*s == pref[index])
+			{
+				bytes++;
+				break;
+			}
+
+			else if (pref[index + 1] == '\0')
+				return (bytes);
+		}
+
+		s++;
 	}
 
-	return ('\0');
+	return (bytes);
 }
