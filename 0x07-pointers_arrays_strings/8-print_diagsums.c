@@ -1,9 +1,8 @@
 /*
- * File: 8-print_diagsums.c
- * Auth: Brennan D Baraban
- */
+ * File Name: 8-print_diagsums.c
+ * Coder: Dagnachew Amare */
 
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
