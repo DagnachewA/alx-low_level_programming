@@ -4,6 +4,7 @@
  */
 
 #include "main.h"
+#include <stddef.h>
 
 /**
  * _puts - Prints a string to stdout.
