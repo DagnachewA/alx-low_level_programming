@@ -25,8 +25,8 @@ int is_digit(char *a)
 }
 /**
  * _strlen - returns strlen
- * @s: str evaluated
- * Return: strlen
+ * @a: str evaluated
+ * Return: 0 success, else b
  */
 int _strlen(char *a)
 {
