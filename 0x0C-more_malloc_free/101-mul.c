@@ -55,7 +55,7 @@ void errors(void)
 int main(int argc, char *argv[])
 {
 	char *a1, *a2;
-	int len1, len2, len, carry, digit1, digit2, *result, a = 0;
+	int len1, len2, b, len, carry, digit1, digit2, *result, a = 0;
 
 	a1 = argv[1], a2 = argv[2];
 	if (argc != 3 || !is_digit(a1) || !is_digit(a2))
