@@ -1,4 +1,4 @@
-#include "../1-pi.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -8,11 +8,10 @@
  */
 int main(void)
 {
-	float a;
-	float r;
+	char *s = "hello";
+	char *f;
 
-	r = 98;
-	a = PI * r * r;
-	printf("%.3f\n", a);
+	f = _strchr(s, 'l');
+	printf("%s\n", f);
 	return (0);
 }
