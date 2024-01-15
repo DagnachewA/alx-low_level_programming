@@ -41,7 +41,8 @@ int mul(int a, int b);
 int div(int a, int b);
 int mod(int a, int b);
 3. Code injection: Win the Giga Millions!
-Our mole got us a copy of the program, you can download it here. Our mole also gave us a piece of documentation:
+I bought a ticket for the Giga Millions and chose those numbers: 9, 8, 10, 24, 75 + 9. Can you make me win the Jackpot?
+
 /* Giga Millions program                                                                                    
   * Players may pick six numbers from two separate pools of numbers:                                                
   * - five different numbers from 1 to 75 and                                                                       
@@ -50,15 +51,3 @@ Our mole got us a copy of the program, you can download it here. Our mole also g
   * Your chances to win the jackpot is 1 in 258,890,850                                                             
   *                                                                                                                 
   * usage: ./gm n1 n2 n3 n4 n5 bonus
-You can’t modify the program gm itself as Master Sysadmin Sylvain (MSS) always checks its MD5 before running it
-The system is an Linux Ubuntu 16.04
-The server has internet access
-Our mole will be only able to run two commands from a shell script, without being detected by MSS
-Your shell script should be maximum 3 lines long. You are not allowed to use ;, &&, ||, |, ` (it would be detected by MSS), and have a maximum of two commands
-Our mole has only the authorization to upload one file on the server. It will be your shell script
-Our mole will run your shell script this way: mss@gm_server$ . ./101-make_me_win.sh
-Our mole will run your shell script from the same directory containing the program gm, exactly 98 seconds before MSS runs gm with my numbers: ./gm 9 8 10 24 75 9
-MSS will use the same terminal and session than our mole
-Before running the gm program, MSS always check the content of the directory
-MSS always exit after running the program gm
-TL;DR; This is what is going to happen
